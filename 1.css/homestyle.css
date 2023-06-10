@@ -1,0 +1,440 @@
+body {
+  padding: 0px 0px 0px 0px!important;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  background-color: #DDDCE1;
+}
+
+header,
+section {
+  padding: 5% 0 0 5%;
+}
+.menu {
+  height: 53px;
+  background-color: rgba(26, 23, 115, 0.3);
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  margin-top: -60px;
+  margin-bottom: 60px;
+}
+
+.navbar-toggle-label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.navbar-toggle-label span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #DDDCE1;
+
+  margin-bottom: 5px;
+  margin-top: 5px;
+  transition: transform 0.3s ease;
+}
+
+#navbar-toggle {
+  display: none;
+}
+
+.navbar-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #DDDCE1;
+  padding: 10px;
+  opacity: 0;
+  opacity: 0.5;
+  transition: opacity .5s ease-in-out;
+}
+
+
+#navbar-toggle:checked ~ .navbar-menu {
+  display: block;
+  opacity: 1;
+  transform: translateY(0); /* Riporta il menu nella posizione originale */
+}
+
+.navbar-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-menu ul li {
+  margin-top: -30px; /* Riduci lo spazio tra gli elementi */
+}
+
+.navbar-menu ul li a {
+  color: #1A1773;
+  text-decoration: none;
+  text-align: left;
+  font-size: 13px;
+}
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 700;
+  font-size: 5.5rem;
+  text-align: center;
+ 
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.logo {
+  width: 180px;
+  height: 180px;
+  max-width: 100%;
+  margin-right: 10px;
+  margin-bottom: 55px;
+  margin-top: 65px;
+justify-content: center;
+}
+
+header {
+  font-weight: 700;
+  padding: 0;
+  height: 250px;
+  max-width: 100%;
+}
+#sottotitolo {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  color: #ffffff;
+  text-shadow: 0 0 5px #F9E9B4, 0 0 10px #F9E9B4, 0 0 15px #F9E9B4;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+
+#sottotitolo {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  color: #ffffff;
+  text-shadow: 0 0 5px #F9E9B4, 0 0 10px #F9E9B4, 0 0 15px #F9E9B4;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+
+#title {
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff;
+  margin-top: 15px;
+  color: #1A1773;
+}
+section {
+  padding: 10px;
+}
+.whitelink {
+  color: #4E487D;
+}
+
+.active h2 {
+  text-decoration: underline !important;
+  text-shadow: 0 0 5px #F9E9B4, 0 0 10px #F9E9B4, 0 0 15px #F9E9B4;
+color:#ffffff;
+}
+
+.nounderline {
+  text-decoration: none;
+  padding: 10px;
+  color: #4E487D;
+}
+
+.nounderline:hover {
+  color: #9080CF;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 450px;
+  width: 400px;
+}
+
+#my-header {
+  position: relative;
+  background-image: url('2.img/citazioni.jpeg');
+  background-size: cover;
+  background-position: top left; /* Modificato da "center" a "top left" */
+  height: 450px;
+  width: 400px;
+  max-width: 70%;
+  padding: 5% 5% 0;
+}
+
+#slogan {
+  font-size: 25px;
+  color: #1A1773;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff;
+  margin-top: 3%;
+  font-style:normal;
+margin-bottom: 6%;
+}
+
+#carosello {
+  background-color: #1A1773;
+
+
+}
+#pre1 {
+  width: 200px;
+  height: 200;
+  max-height: 200px;
+  object-fit: cover;
+  float: left;
+  margin-left: 10px;
+  opacity: 1;
+}
+
+#carosello .carousel img {
+  width: 200px;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  float: left;
+  margin-left: 200px;
+  opacity: 1;
+}
+
+
+
+#carosello #testopre1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: larger;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 1;
+
+}
+.testo-pre-1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: right;
+  margin-top: 30px; /* Regola l'altezza del testo */
+  margin-right: 200px;
+  margin-bottom: 70px;
+
+}
+
+.scopri-di-più {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  color: #F9E9B4;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: bold;
+  font-size: 25px; 
+  margin-right:165px;
+  margin-top: 200px;
+  opacity: 1;
+}
+
+.scopri-di-piu:hover {
+color: #4E487D; 
+}
+
+.servizi-colonne {
+  display: flex;
+margin-left: 50px;
+  justify-content: center;
+}
+
+.servizio {
+  text-align: center;
+  margin-right: 25px; /* Aggiungi spaziatura orizzontale tra i servizi */
+}
+
+
+
+
+ #servizi {
+    font-family: 'Bebas Neue', sans-serif;
+      font-weight: 700;
+      font-size:65px;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 30px;
+      color:#1A1773;
+    
+    }
+  .fas {
+    font-size: 25px;
+  }
+  .galleria-artisti-home {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .artisti-home {
+    position: relative;
+    width: 200px; /* Imposta la larghezza desiderata */
+    height: 250px; /* Imposta l'altezza desiderata */
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .image-container {
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .artisti-home img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%); /* Converte l'immagine in bianco e nero */
+    transition: transform 0.3s, filter 0.3s;
+    
+  }
+  
+  .artisti-home:hover img {
+    transform: scale(1.2); /* Ingrossa l'immagine al passaggio del mouse */
+    filter: grayscale(0%); /* Ripristina il colore dell'immagine */
+
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Imposta il colore di overlay desiderato */
+    opacity: 0;
+    transition: opacity 0.3s;
+
+  }
+  
+  .artisti-home:hover .overlay {
+    opacity: 1; /* Mostra l'overlay */
+
+  }
+  
+  .text-artisti-home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F9E9B4; /* Imposta il colore del testo desiderato */
+    font-size: 70px; /* Imposta la dimensione del testo desiderata */
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .artisti-home:hover .text-artisti-home {
+    opacity: 1; /* Mostra il testo degli artisti */
+  }
+  
+  .text-artisti-home a {
+    color: #4E487D; /* Imposta il colore del link */
+    text-decoration: none;
+  }
+  
+  .text-artisti-home a:hover {
+    color: #F9E9B4; /* Imposta il colore del link al passaggio del mouse */
+  }
+  .news-section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .news-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    transition: transform 0.3s cubic-bezier(0.2, 0.3, 0.25, 1);
+  }
+  .news-preview:hover {
+    transform: scale(1.2); /* Ingrandisce l'elemento del 10% */
+  }
+  .news-image img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .news-details {
+    text-align: center;
+  }
+  .news-title {
+    margin-top: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1A1773;
+    text-align: center;
+
+  }
+  
+  .news-title:hover {
+    color: #4E487D;
+    text-decoration: underline;
+  }
+  
+  .news-description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+
+  }
+  
+.icon-social {
+text-align: center;
+display: inline-block;
+font-size: 40px;
+}
+.contatti-home {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+.breadcrumbs {
+  font-size: 4px;
+  display: inline-block;
+  opacity: 0.5;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+
+.fine {
+  font-size: 10px;
+}
